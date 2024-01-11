@@ -1,0 +1,265 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+   background: linear-gradient(30deg, #949393, #ffffff);
+   color: #090909;
+   
+}
+
+.titleDiv {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-family: 'Dancing Script', cursive;
+  font-weight: 700; 
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+
+.homePage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+
+}
+
+.sideDiv {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftSideDiv {
+  /* background-image: url('путь_к_картинке');  */
+  background-size: cover;
+  border-right: 2px solid black; 
+}
+
+
+.rightSideDiv {
+  /* background-image: url('путь_к_картинке');  */
+  background-size: cover;
+  border-left: 2px solid black;
+} 
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.signInButton, .signUpButton, .CreateAccountButton{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+.signInDiv{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+
+}
+
+.inputSignIn, .inputSignUp{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  border: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.signUnDiv{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.getStartedLinkText{
+  margin-top: 30px;
+}
+
+.createAccountLinkText{
+  margin: 20px;
+}
+
+.submitButton{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.mainPageDiv{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  overflow: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.titleNameMainPage {
+  align-self: flex-start;
+  margin-left: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700; 
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.addRoomButton {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.titleMainPage {
+  margin-bottom: 20px;
+   font-family: 'Dancing Script', cursive;
+  font-weight: 700; 
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.createRoomDiv{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 100vh;
+  overflow: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.createRoomInput{
+  width: 300px;
+}
+
+.roomsDiv{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roomContainer{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100vh;
+  overflow: auto;
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.roomDiv{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.roomButton{
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.productsDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.createProductInput{
+  width: 98%;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #f5f5f5;
+}
+
+.buttonAddProduct{
+  width: 100%;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #4c98af;
+  color: #fff;
+}
+
+.deleteButton{
+  color: red;
+  cursor: pointer;
+}
+
